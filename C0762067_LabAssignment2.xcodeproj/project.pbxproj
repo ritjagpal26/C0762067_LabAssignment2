@@ -15,6 +15,7 @@
 		04E504BD23D6254600AB8C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E504BC23D6254600AB8C4E /* Assets.xcassets */; };
 		04E504C023D6254600AB8C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E504BE23D6254600AB8C4E /* LaunchScreen.storyboard */; };
 		04E504CB23D6416F00AB8C4E /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504CA23D6416F00AB8C4E /* TaskTableViewCell.swift */; };
+		04E504CD23D652A300AB8C4E /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504CC23D652A300AB8C4E /* Tasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04E504BF23D6254600AB8C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E504C123D6254600AB8C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E504CA23D6416F00AB8C4E /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		04E504CC23D652A300AB8C4E /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				04E504B023D6254600AB8C4E /* AppDelegate.swift */,
 				04E504B223D6254600AB8C4E /* SceneDelegate.swift */,
+				04E504CC23D652A300AB8C4E /* Tasks.swift */,
 				04E504C723D63DC700AB8C4E /* Controllers */,
 				04E504B623D6254600AB8C4E /* Main.storyboard */,
 				04E504BC23D6254600AB8C4E /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				04E504B523D6254600AB8C4E /* ViewController.swift in Sources */,
 				04E504CB23D6416F00AB8C4E /* TaskTableViewCell.swift in Sources */,
 				04E504B123D6254600AB8C4E /* AppDelegate.swift in Sources */,
+				04E504CD23D652A300AB8C4E /* Tasks.swift in Sources */,
 				04E504B323D6254600AB8C4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
