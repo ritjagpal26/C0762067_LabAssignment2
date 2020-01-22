@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		04E504B123D6254600AB8C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504B023D6254600AB8C4E /* AppDelegate.swift */; };
 		04E504B323D6254600AB8C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504B223D6254600AB8C4E /* SceneDelegate.swift */; };
-		04E504B523D6254600AB8C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504B423D6254600AB8C4E /* ViewController.swift */; };
+		04E504B523D6254600AB8C4E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504B423D6254600AB8C4E /* HomeController.swift */; };
 		04E504B823D6254600AB8C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E504B623D6254600AB8C4E /* Main.storyboard */; };
 		04E504BB23D6254600AB8C4E /* C0762067_LabAssignment2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E504B923D6254600AB8C4E /* C0762067_LabAssignment2.xcdatamodeld */; };
 		04E504BD23D6254600AB8C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E504BC23D6254600AB8C4E /* Assets.xcassets */; };
 		04E504C023D6254600AB8C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E504BE23D6254600AB8C4E /* LaunchScreen.storyboard */; };
 		04E504CB23D6416F00AB8C4E /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504CA23D6416F00AB8C4E /* TaskTableViewCell.swift */; };
 		04E504CD23D652A300AB8C4E /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504CC23D652A300AB8C4E /* Tasks.swift */; };
+		04E504CF23D6E86600AB8C4E /* addDesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E504CE23D6E86600AB8C4E /* addDesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04E504AD23D6254600AB8C4E /* C0762067_LabAssignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0762067_LabAssignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E504B023D6254600AB8C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E504B223D6254600AB8C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E504B423D6254600AB8C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E504B423D6254600AB8C4E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		04E504B723D6254600AB8C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E504BA23D6254600AB8C4E /* C0762067_LabAssignment2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = C0762067_LabAssignment2.xcdatamodel; sourceTree = "<group>"; };
 		04E504BC23D6254600AB8C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		04E504C123D6254600AB8C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E504CA23D6416F00AB8C4E /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		04E504CC23D652A300AB8C4E /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		04E504CE23D6E86600AB8C4E /* addDesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 		04E504C723D63DC700AB8C4E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04E504B423D6254600AB8C4E /* ViewController.swift */,
+				04E504B423D6254600AB8C4E /* HomeController.swift */,
 				04E504CA23D6416F00AB8C4E /* TaskTableViewCell.swift */,
+				04E504CE23D6E86600AB8C4E /* addDesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,7 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E504BB23D6254600AB8C4E /* C0762067_LabAssignment2.xcdatamodeld in Sources */,
-				04E504B523D6254600AB8C4E /* ViewController.swift in Sources */,
+				04E504CF23D6E86600AB8C4E /* addDesViewController.swift in Sources */,
+				04E504B523D6254600AB8C4E /* HomeController.swift in Sources */,
 				04E504CB23D6416F00AB8C4E /* TaskTableViewCell.swift in Sources */,
 				04E504B123D6254600AB8C4E /* AppDelegate.swift in Sources */,
 				04E504CD23D652A300AB8C4E /* Tasks.swift in Sources */,
